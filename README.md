@@ -7,6 +7,12 @@ Userscript to put [dotjs][dotjs] into your [Fluid][fluid] browsers. It may also 
  1. Make sure you've already installed [dotjs][dotjs] (it doesn't matter if you haven't installed the chrome extension).
  2. [Download jQuery][jquery.js] into ~/.js/jquery.js (minified is fine)
  3. Add [userscript][dotjs.user.js] to Fluid
+   * For Fluid version 1.x (tested with v1.2):
+     1. Open your Fluid browser.
+     2. From the menu, select "Window" -> "Userscripts".
+     3. Add a new userscript config using "*" for the URL pattern.
+     4. Paste [the userscript][dotjs.user.js] into the editor.
+   * For earlier versions of Fluid:
      1. Open your Fluid browser.
      2. From the menu, select the script icon -> "Open Userscripts Folder" (Ctrl + Command + O).
      3. Put [the userscript][dotjs.user.js] inside the opened folder.
