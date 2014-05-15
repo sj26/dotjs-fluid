@@ -39,5 +39,7 @@
       jQuery.noConflict();
       dotjs(jQuery);
     });
+  } else {
+    dotjs(jQuery);
   }
 })();
